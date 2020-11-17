@@ -1,3 +1,3 @@
-module github.com/xiachufang/{project-name}
+module github.com/x1ah/alfred-cron
 
 go 1.14
