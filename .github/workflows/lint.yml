@@ -10,18 +10,6 @@ on:
       - '**.pb.go'
       - '**_test.go'
 jobs:
-  # We already run the current golangci-lint in tests, but here we test
-  # our GitHub action with the latest stable golangci-lint.
-  golangci-lint:
-    name: golangci-lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: lint
-        uses: golangci/golangci-lint-action@v1
-        with:
-          version: v1.27
-
   errcheck:
     name: Errcheck
     runs-on: ubuntu-latest
