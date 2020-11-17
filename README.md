@@ -8,5 +8,5 @@ alfred workflow for parse crontab expression
 
 ## Install
 
-1. Download `alfred-cron.alfredworkflow` latest release from [Release](https://github.com/x1ah/alfred-cron/releases)
+1. Download `alfred-cron.alfredworkflow` latest release from [Release](https://github.com/x1ah/alfred-cron/releases) page
 2. Double click `alfred-cron.alfredworkflow` to import workflow
